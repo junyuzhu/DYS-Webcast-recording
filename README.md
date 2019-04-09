@@ -4,19 +4,7 @@
 使用python3 + ffmpeg 实现对直播流的录像
 <br>
 录像文件为flv格式,如:(20190408211730.flv)
-<br>
-
-<br>
-
-<br>
-<h2>Linux平台</h2>
-<i>record.py</i>为linux下的程序 
-<br>执行命令为 python3 record.py
-<br>
-需要预先安装python3与 ffmpeg
-<br>
-初次运行时需要并且在程序中自己配置录像存放的本地地址(绝对路径)
-<br>
+<br><br><br>
 目前已实现的功能
 <br>
 1.可调录像的工作时间，当设定非直播时间开启程序会程序会自动关闭
@@ -34,7 +22,16 @@
 7.录像的码率根据当前的推流的码率而定
 <br>
 8.按键盘的"q"时键分P
-<br><br><br>
+<br>
+<br>
+<h2>Linux平台</h2>
+<i>record.py</i>为linux下的程序 
+<br>执行命令为 python3 record.py
+<br>
+需要预先安装python3与 ffmpeg
+<br>
+初次运行时需要并且在程序中自己配置录像存放的本地地址(绝对路径)
+<br><br><br><br>
 <h2>windows平台(使用标题命令行或者power shell运行)</h2>
 <br>
 <i>rec_in_win.py</i>为window平台下的录制程序，需要存放于与bin/ffmpeg.exe同一个文件夹下，并且录制的视频存放于此文件夹里。
